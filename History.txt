@@ -1,8 +1,9 @@
 === 1.0.1 / 2015-08-10
 
-* 1 bug fix:
+* 2 bug fixes:
 
   * Removed dead rubyforge setting in Rakefile
+  * Removed rubygems/format from plugin
 
 === 1.0.0 / 2010-12-01
 
