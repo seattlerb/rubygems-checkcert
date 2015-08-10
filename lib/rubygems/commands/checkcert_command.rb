@@ -3,7 +3,6 @@
 require "rubygems/command"
 require "rubygems/version_option"
 require "rubygems/local_remote_options"
-require "rubygems/format"
 
 ##
 # Gem command to display the certificate of a gem, if any.
