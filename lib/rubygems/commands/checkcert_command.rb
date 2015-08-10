@@ -8,7 +8,7 @@ require "rubygems/local_remote_options"
 # Gem command to display the certificate of a gem, if any.
 
 class Gem::Commands::CheckcertCommand < Gem::Command
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 
   include Gem::VersionOption
   include Gem::LocalRemoteOptions
