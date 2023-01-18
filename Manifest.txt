@@ -1,6 +1,6 @@
-History.txt
+History.rdoc
 Manifest.txt
-README.txt
+README.rdoc
 Rakefile
 lib/rubygems/commands/checkcert_command.rb
 lib/rubygems_plugin.rb
