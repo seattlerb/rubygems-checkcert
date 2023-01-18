@@ -1,6 +1,10 @@
 = rubygems_checkcert
 
-* http://rubyforge.org/projects/seattlerb
+home :: http://www.zenspider.com/projects/rubygems-checkcert.html
+code :: https://github.com/seattlerb/rubygems-checkcert
+bugs :: https://github.com/seattlerb/rubygems-checkcert/issues
+rdoc :: http://docs.seattlerb.org/rubygems-checkcert/
+clog :: https://github.com/seattlerb/rubygems-checkcert/blob/master/History.txt
 
 == DESCRIPTION:
 
