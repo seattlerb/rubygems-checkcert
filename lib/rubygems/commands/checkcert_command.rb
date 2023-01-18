@@ -3,6 +3,7 @@
 require "rubygems/command"
 require "rubygems/version_option"
 require "rubygems/local_remote_options"
+require "rubygems/package"
 
 ##
 # Gem command to display the certificate of a gem, if any.
@@ -40,10 +41,10 @@ class Gem::Commands::CheckcertCommand < Gem::Command
 
     if local? then
       if File.exist? gem then
-        specs << Gem::Format.from_file_by_path(gem).spec # rescue nil
+        specs << Gem::Package.new(gem).spec # rescue nil
+      else
+        specs.push(*dep.matching_specs)
       end
-
-      specs.push(*Gem.source_index.search(dep)) if specs.empty?
     end
 
     if remote? then
