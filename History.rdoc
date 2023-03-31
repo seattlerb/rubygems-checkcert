@@ -1,3 +1,9 @@
+=== 1.0.2 / 2023-03-31
+
+* 1 bug fix:
+
+  * Fixed up for recent versions of rubygems.
+
 === 1.0.1 / 2015-08-10
 
 * 2 bug fixes:
@@ -10,4 +16,3 @@
 * 1 major enhancement
 
   * Birthday!
-
